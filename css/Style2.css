@@ -1,0 +1,391 @@
+ section{
+  padding: 45px 0px;
+ }
+ header{
+background-color: #87509c;
+color: white;
+ }
+ .writing-part{
+
+ }
+  .box-part{
+margin-top: 25px;
+  }
+  .box{
+    padding: 25px 0px;
+  }
+ .hero h1{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .hero{
+  padding: 50px;
+ }
+ .btn{
+  margin-top: 35px;
+  padding: 10px 25px;
+ }
+.btn1{
+ padding-left:100px ;
+}
+.btn2{
+  background-color: #ebc985;
+  border: none;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+ }
+ .btn3{
+  border: none;
+  margin: 0px 10px;
+  padding: 3px 5px;
+  border-radius: 5px;
+ }
+ .underline{
+  border-top: 3px solid rgba(0, 0, 0, 0.306);
+  width: 10%;
+  margin: 15px auto;
+ }
+ .heading{
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  }
+  .sub-heading{
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    }
+    .des{
+      font-size: 16px;
+      color: #55c2e9;
+    }
+ .p{
+  font-size: 15px;
+  margin: 15px 50px;
+ }
+  #service{
+    background-color: #17c2a4;
+
+  }
+  #team{
+    background-color:#e7f1f8 ;  
+   color:black ;
+  }
+  #skill{
+    background-color: white;
+    color:black ;
+  }
+  #portfolio{
+    background-color: #ffdd99;
+  }
+  #about{
+    background-color:#d74680 ;
+    color: white;
+    padding: 10px;
+  }
+  #about h3{
+    padding-right: 80px;
+  }
+  #about p{
+    padding: 15px 0px;
+  }
+  #about .box h5{
+   margin-right: 80px;
+    color: #ebc985;
+  }
+  #contact{
+    background-color: #3c5499;
+  }
+  form input{
+    background-color: #273a71;
+    color: white;
+    border: none;
+  } 
+  placeholder{
+    color: white;
+    text-align: start;
+  }
+  .in1{
+    padding: 15px 100px;
+    text-align: start;
+    margin-top: 5px;
+    color: white;
+  }
+  .in2{
+    margin-top: 5px;
+    padding: 55px 100px;
+    color: white;
+  }
+  form label{
+    display: inline-block;
+  }
+  .message{
+    display: block;
+  margin-top: 10px;
+  }
+  #footer{
+    margin-top: 35px;
+    background-color: #273a71;
+  }
+  #btn2{
+    background-color: #344b8e;
+   font-size: 16px;
+   padding: 10px 15px; 
+   margin-top: 15px;
+  }
+  #btn2 a{
+  text-decoration: none;
+  color: white;
+  }
+  
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) { 
+  .hero h1{
+  font-size: 30px;
+ }
+ .hero{
+  padding: 50px;
+ }
+ .heading{
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  }
+  .sub-heading{
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 15px 0px;;
+    }
+ .p{
+  font-size: 15px;
+  margin: 15px 50px;
+ }
+  .btn2{
+  background-color: #ebc985;
+  border: none;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+ }
+ .btn3{
+  border: none;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+ }
+ #about{
+  background-color:#d74680 ;
+  color: white;
+}
+#about h3{
+  padding-right: 200px;
+}
+#about p{
+  padding: 15px 0px;
+}
+#about .box h5{
+  color: #ebc985;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+  .hero h1{
+  font-size: 45px;
+ }
+ .hero{
+  padding: 75px;
+ }
+ .heading{
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  }
+  .sub-heading{
+    font-size: 23px;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    }
+ .p{
+  font-size: 15px;
+  margin: 15px 50px;
+ }
+ .btn1{
+  padding-left:220px ;
+ }
+ .btn2{
+  background-color: #ebc985;
+  border: none;
+  margin: 0px 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+ }
+ .btn3{
+  border: none;
+  margin: 0px 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+ }
+ #about{
+  background-color:#d74680 ;
+  color: white;
+}
+#about h3{
+  padding-right: 200px;
+}
+#about p{
+  padding: 15px 0px;
+}
+#about .box h5{
+  color: #ebc985;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .hero h1{
+    font-size: 55px;
+   }
+   .hero{
+    padding: 80px;
+   }
+   .heading{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    }
+    .sub-heading{
+      font-size: 23px;
+      text-transform: uppercase;
+      padding: 15px 0px;
+      }
+   .p{
+    font-size: 15px;
+    margin: 15px 50px;
+   }
+   .btn1{
+    padding-left:350px ;
+   }
+   .btn2{
+    background-color: #ebc985;
+    border: none;
+    margin: 0px 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+   }
+   .btn3{
+    border: none;
+    margin: 0px 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+   }
+   #about{
+    background-color:#d74680 ;
+    color: white;
+ }
+ #about h3{
+    padding-right: 200px;
+ }
+ #about p{
+    padding: 15px 0px;
+ }
+ #about .box h5{
+    color: #ebc985;
+ }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .hero h1{
+    font-size: 65px;
+   }
+   .hero{
+    padding: 100px;
+   }
+   .heading{
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    }
+    .sub-heading{
+      font-size: 23px;
+      text-transform: uppercase;
+      padding: 15px 0px;
+      }
+   .p{
+    font-size: 15px;
+    margin: 15px 50px;
+   }
+  #btn{
+   margin-right:350px;
+   margin-left: 0px;
+  }
+  .btn1{
+    padding-left:410px ;
+   }
+   .btn2{
+    background-color: #ebc985;
+    border: none;
+    margin: 0px 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+   }
+   .btn3{
+    border: none;
+    margin: 0px 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+   }
+   #about{
+    background-color:#d74680 ;
+    color: white;
+ }
+ #about h3{
+    padding-right: 200px;
+ }
+ #about p{
+    padding: 15px 0px;
+ }
+ #about .box h5{
+    color: #ebc985;
+    margin-right: 200px;
+ }
+ form input{
+  background-color: #273a71;
+  color: white;
+  border: none;
+} 
+form::placeholder{
+  color: white;
+  text-align: start;
+}
+.in1{
+  padding: 15px 100px;
+  text-align: start;
+
+}
+.in2{
+padding: 75px 300px;
+}
+form label{
+  display: inline-block;
+  text-align: start;
+}
+input{
+color: white;
+}
+.message{
+  display: block;
+margin-top: 10px;
+}
+#btn2{
+  padding-left: 25px;
+ font-size: 16px;
+ padding: 10px 15px; 
+ margin-top: 15px;
+}
+#btn2 a{
+text-decoration: none;
+color: white;
+}
+   }
